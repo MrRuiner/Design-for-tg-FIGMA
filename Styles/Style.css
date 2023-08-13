@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +51,7 @@ nav ul {
 nav ul li {
     list-style: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 nav ul li:nth-child(2n) {
